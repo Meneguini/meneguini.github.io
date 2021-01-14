@@ -4,7 +4,7 @@ body {
 
 /* ------------------- Navbar ----------------- */
 
-.menu-bars {
+#menu-icon {
     display: none;
 }
 
@@ -294,43 +294,7 @@ hr {
 
 @media screen and (max-width: 736px) {
 
-    .photo-name-menu {
-        position: relative;
-        z-index: 1;
-        height: 60px;
-    }
-
-    .menu-bars {
-        display: block;
-        position: relative;
-        /* top: 100%; */
-        left: 1%;
-        float: left;
-        /* font-size: 1000px; */
-    }
-
-    .navbar-brand {
-        position: relative;
-        /* top: 50%; */
-        left: 10%;
-    }
-
-    .nav-photo {
-        width: 30%;
-        float: right;
-        position: relative;
-        /* top: 200%; */
-        right: 3%;
-        z-index: 2;
-        overflow-x: visible;
-        overflow-y: visible;
-    }
-
-    .sub-title {
-        display: none;
-    }
-
-    .item {
+    .nav-photo, .sub-title, .icons-nav, .banner-img {
         display: none;
     }
 
@@ -338,23 +302,29 @@ hr {
         display: none;
     }
 
-    /* .icons-nav {
-        display: none;
-    } */
-
     .navbar {
         width: 100%;
         height: auto;
         position: relative;
-    }
-    .navbar a {
-        float: left;
         text-align: center;
-        /* float: none; */
+        float: none;
+        /* padding-top: 10%; */
+        /* padding-bottom: 5%; */
     }
 
-    .banner-img {
-        display: none;
+    .navbar-brand {
+        position: absolute;
+        margin-top: 0;
+        top: 10%;
+        left: 5%;
+    }
+
+    #menu-icon {
+        display: block;
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        font-size: 2rem;
     }
 
     .page-content {
@@ -363,12 +333,41 @@ hr {
 }
 
 @media screen and (max-width: 600px){
-    .navbar a {
+    .navbar {
+        padding-top: 6%;
+        padding-bottom: 3%;
+    }
 
+    .navbar-brand {
+        top: 8%;
+    }
+
+    #menu-icon {
+        top: 10%;
+        font-size: 1.9rem;
     }
 }
 
-@media screen and (max-height: 450px) {
-    /* .navbar {padding-top: 15px;} */
-    /* .navbar a {font-size: 18px;} */
+@media screen and (max-width: 450px) {
+    .navbar {
+        padding-top: 7%;
+        /* padding-bottom: 7%; */
+    }
+
+    .navbar-brand {
+        top: 5%;
+    }
+
+    #menu-icon {
+        top: 6%;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .navbar {
+        padding-top: 9%;
+        /* padding-bottom: %; */
+        min-width: 100%;
+    }
+
 }

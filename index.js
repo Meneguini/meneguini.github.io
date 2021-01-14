@@ -1,21 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
-
-    window.addEventListener('scroll', scrollChanges);
+    document.querySelector('#menu-icon').addEventListener('click', menuClicked);
 });
 
-const scrollChanges = () => {
-    console.log("scroll changes");
-
-    const itemOne = document.querySelector('#item-1') 
-    console.log("scrolltop of itemOne", itemOne.scrollTop);
-    if (itemOne.scrollTop == 0) {
-        console.log("One at the top");
+const menuClicked = () => {
+    console.log("menu cliked");
+    if(document.querySelector(".nav-pills").style.display == 'block') {
+        document.querySelector(".nav-pills").style.display = 'none';
     }
-
-    const itemTwo = document.querySelector('#item-2')
-    if (itemTwo.scrollTop == 0) {
-        console.log("two ate the top");
+    else {
+        document.querySelector(".nav-pills").style.display = 'block';   
     }
-    
-
 }
