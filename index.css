@@ -2,11 +2,12 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 
-/* ------------------- Navbar ----------------- */
-
-#menu-icon {
+/* Not displayed in the desktop viewport */
+#menu-icon, .about-photo, .github-resp {
     display: none;
 }
+
+/* ------------------- Navbar ----------------- */
 
 .navbar {
     height: 100%;
@@ -184,7 +185,7 @@ hr {
 
 @media screen and (max-width: 1280px) { 
     .navbar {
-        padding-top: 10%;
+        padding-top: 5%;
     }
 
     .navbar-brand {
@@ -196,7 +197,7 @@ hr {
     }
 
     .icons-nav {
-        margin-top: 80%;
+        margin-top: 10%;
     }
 
     .nav-pills {
@@ -294,12 +295,12 @@ hr {
 
 @media screen and (max-width: 736px) {
 
-    .nav-photo, .sub-title, .icons-nav, .banner-img {
+    .nav-photo, .sub-title, .icons-nav, .banner-img, .nav-pills {
         display: none;
     }
 
-    .nav-pills {
-        display: none;
+    .github-resp {
+        display: block;
     }
 
     .navbar {
@@ -308,8 +309,6 @@ hr {
         position: relative;
         text-align: center;
         float: none;
-        /* padding-top: 10%; */
-        /* padding-bottom: 5%; */
     }
 
     .navbar-brand {
@@ -330,6 +329,30 @@ hr {
     .page-content {
         margin-left: 0%;
     }
+
+    .about-photo {
+        display: block;
+        width: 30%;
+        border-radius: 50%;
+        float: right;
+        margin-top: -4%;
+    }
+
+    .about-title {
+        font-size: 2.1rem;
+    }
+
+    .about-sub {
+        font-size: 1.1rem;
+    }
+
+    .footer {
+        padding: 5%;
+    }
+
+    .text-fo {
+        font-size: 0.8rem;
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -346,7 +369,39 @@ hr {
         top: 10%;
         font-size: 1.9rem;
     }
+
+    .about-title {
+        font-size: 2rem;
+    }
+
+    .about-sub {
+        font-size: 0.9rem;
+    }
+
+    .content-texts {
+        font-size: 1rem;
+    }
+
+    #icon-content {
+        font-size: 1.2rem;
+        color: #003459;
+        background-color: white;
+    }
+
+    .icon-text {
+        grid-template-columns: 20% auto;
+        font-size: 0.7rem;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+
+    .text-fo {
+        font-size: 0.7rem;
+    }
 }
+
 
 @media screen and (max-width: 450px) {
     .navbar {
@@ -361,6 +416,38 @@ hr {
     #menu-icon {
         top: 6%;
     }
+
+    .about-title {
+        font-size: 1.7rem;
+    }
+
+    .about-title {
+        font-size: 1.5rem;
+    }
+
+    .about-sub {
+        font-size: 0.7rem;
+    }
+
+    .content-texts {
+        font-size: 0.8rem;
+    }
+
+    .icons-texts-container {
+        margin-bottom: 23%;
+    }
+
+    .card-text {
+        font-size: 0.9rem;
+    }
+
+    .check-it {
+        font-size: 0.7rem;
+    }
+
+    .text-fo {
+        font-size: 0.6rem;
+    }
 }
 
 @media screen and (max-width: 340px) {
@@ -368,6 +455,14 @@ hr {
         padding-top: 9%;
         /* padding-bottom: %; */
         min-width: 100%;
+    }
+
+    .icon-text {
+        grid-template-columns: 25% auto;
+    }
+
+    .icons-texts-container {
+        margin-bottom: 30%;
     }
 
 }
