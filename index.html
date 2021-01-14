@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="photo-name-menu">
+                <img class="nav-photo" src="img/summersmall.png" alt="image of park">
+                <i class="fa fa-bars menu-bars"></i>
+                <a class="navbar-brand" href="#">Mariana Meneguini</a>
+                <p class="nav-link disabled sub-title">Fullstack Web Developer</p>
+            </div>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link item" href="#item-1">About</a>
+              <a class="nav-link item" href="#item-2">Skills</a>
+              <a class="nav-link item" href="#item-3">Projects</a>
+              <a class="nav-link item" href="#item-4">Contact</a>  
+              <div class="icons-nav">
+                <span href=""><i class="fa fa-fw fa-linkedin"></i></span>
+                <span href=""><i class="fa fa-fw fa-github"></i></span>
+              </div>
+            </nav>
+
+        </nav>
+          
+        <div data-spy="scroll" data-target="#navbar-example3" class="page-content" data-offset="0">
+            
+            <img class="banner-img" src="img/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="photo of laptop">
+            <div id="item-1">
+                <h4 class="about-title">About Me</h4>
+                <p class="content-titles about-sub">I am an enthusiastic Web Developer</p>
+                <p class="content-texts">
+                    I align a sales background with my web development experience to achieve the best solutions for my customers and their clientele. While working as a commissioned saleswoman, I learned that the best way to deliver products that match my customers' expectations is through communication. Together, my passion for web development and my sales background results in the best web application solutions and the satisfaction of my clients. 
+                </p>
+            </div>
+            <div id="item-2">
+                <h4 class="content-titles">Skills</h4>
+                <p class="content-texts about-sub">Some of my skills include:</p>
+                <div class="content-texts icons-texts-container">
+                    <div class="icon-text">
+                        <i class="fa fa-code icon"></i>
+                        <p>Languages: HTML, CSS, JavaScript, Python</p>
+                    </div>
+                    <div class="icon-text">
+                        <i class="fa fa-align-justify icon"></i>
+                        <p>Python Frameworks: Django, Flask</p>
+                    </div>
+                    <div class="icon-text">
+                        <i class="fa fa-database icon"></i>
+                        <p>Relational databases: MySQL, SQLite3, PostgreSQ</p>
+                    </div>
+                    <div class="icon-text">
+                        <i class="fa fa-cloud icon"></i>
+                        <p>Cloud Services: Heroku</p>
+                    </div>
+                    <div class="icon-text">
+                        <i class="fa fa-git icon"></i>
+                        <p>Version Control: GitHub</p>
+                    </div>
+                    <div class="icon-text">
+                        <i class="fa fa-cart-plus icon"></i>
+                        <p>E-commerce platform: Shopify</p>
+                    </div>
+                </div>
+            </div>
+            <div id="item-3">
+                <h4 class="content-titles">Projects</h4>
+                <p class="content-texts about-sub">Some of the projects I have made to showcase my skills</p>
+                <div class="content-texts">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img class="page-screen" src="img/my-movie-night.herokuapp.com_.png" alt="Photo of website">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Movie Night</h5>
+                              <p class="card-text">Movie Night is a web application built in Django. The application allows you to search for movies and access their details such as overview, trailer and more. You can also create an account to save movies to your list and later rate the films on your list.</p>
+                              <p class="card-text">Check it out: 
+                                  <a href="https://my-movie-night.herokuapp.com">https://my-movie-night.herokuapp.com</a>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img class="page-screen" src="img/home-short.png" alt="Photo of webpage">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">My Shoe Store</h5>
+                              <p class="card-text">My Shoe Store showcases an e-commerce store created with a Shopify free theme. The theme was modified accordingly to a shoe store's needs. Also, the integration of a live chat made it more approachable to customers.</p>
+                              
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="item-4">
+                <h4 class="content-titles">Contact</h4>
+                <div class="content-texts contact-details">
+                    <p>Upwork: </p>
+                    <br>
+                    <p>Linkedin: </p>
+                </div>
+            </div>
+            <footer class="footer">
+                <p class="content-texts about-sub text-fo">Icons: Font Awesome</p>
+                <p class="content-texts about-sub text-fo">Banner Photo: Unsplash</p>
+                <p class="content-texts about-sub text-fo">© Meneguini. All rights reserved.</p>
+            </footer>
+            
+        </div>
+
+
+        <script src="index.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html> 

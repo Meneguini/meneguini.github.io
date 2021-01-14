@@ -1,0 +1,374 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+/* ------------------- Navbar ----------------- */
+
+.menu-bars {
+    display: none;
+}
+
+.navbar {
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #003459;
+    overflow-x: hidden;
+    color: #ced5e7;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 5%;
+}
+
+.navbar-brand {
+    margin-right: 0;
+    margin-top: 10%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.nav-pills {
+    font-size: 1.5rem;
+    margin-top: 7%;
+    width: 100%;
+}
+
+.item {
+    border-top: solid 2px #1a486a;
+}
+
+.sub-title {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: #f1f1f1;
+}
+
+.nav-photo {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.icons-nav {
+    align-self: center;
+    bottom: 0;
+    margin-top: 50%;
+}
+/* -------------------- Page ---------------------- */
+.page-content {
+    margin-left: 25%;
+}
+
+.banner-img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+
+#item-1, #item-2, #item-3, #item-4 {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: start;
+    border-bottom: solid 5px #c9dbeb75;
+}
+
+.about-title {
+    color:  #003459;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.about-sub {
+    margin-top: 3%;
+    margin-bottom: 6%;
+}
+
+.content-titles {
+    font-size: 2rem;
+    color: #777;
+    font-weight: 700;
+}
+
+.content-texts {
+    color: #888;
+    font-size: 1.3rem;
+}
+
+.icons-texts-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 6%;
+    grid-row-gap: 15%;
+    margin-bottom: 8%;
+}
+
+.icon-text {
+    display: grid;
+    grid-template-columns: 10% auto;
+    align-items: start;
+    grid-gap: 5%;
+}
+
+.icon {
+    background-color: #003459;
+    padding: 15%;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+}
+
+.card {
+    border: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.card-body {
+    padding-top: 0;
+}
+
+hr {
+    border: solid 2px #c9dbeb75;
+}
+
+.page-screen {
+    width: 100%;
+}
+
+.card-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.contact-details {
+    margin-top: 6%;
+}
+
+/* -------------- Footer --------------- */
+.footer {
+    background-color: #c9dbeb75;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* ------------------------- Responsive ----------------------- */
+
+@media screen and (max-width: 1680px) {
+    .banner-img {
+        height: 380px;
+    }
+}
+
+@media screen and (max-width: 1280px) { 
+    .navbar {
+        padding-top: 10%;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .sub-title {
+        font-size: 1rem;
+    }
+
+    .icons-nav {
+        margin-top: 80%;
+    }
+
+    .nav-pills {
+        font-size: 1.3rem;
+    }
+
+    .nav-photo {
+        width: 50%;
+    }
+
+    .banner-img {
+        height: 280px;
+    }
+
+    .icons-texts-container {
+        margin-bottom: 12%;
+        font-size: 1.1rem;
+    }
+
+    .icon-text .fa {
+        font-size: initial;
+    }
+    
+    .icon {
+        padding: 20%;
+    }
+
+    .card-title {
+        font-size: 1.3rem;
+    }
+
+    .card-text {
+        font-size: 1.2rem;
+    }
+
+    .text-fo {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .navbar {
+        padding-top: 6%;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .sub-title {
+        font-size: 0.9rem;
+    }
+
+    .nav-pills {
+        font-size: 1.2rem;
+    }
+
+    .icons-nav {
+        margin-top: 140%;
+    }
+
+    .icon-text .fa {
+        font-size: small;
+    }
+
+    .banner-img {
+        height: 200px;
+    }
+
+    .about-title {
+        font-size: 2.8rem;
+    }
+    
+    .content-titles {
+        font-size: 1.5rem;
+    }
+
+    .content-texts {
+        font-size: 1.1rem;
+    }
+    
+    .icons-texts-container {
+        margin-bottom: 18%;
+    }
+
+    .page-screen {
+        margin-bottom: 3%;
+    }
+
+    .text-fo {
+        font-size: 0.6rem;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+
+    .photo-name-menu {
+        position: relative;
+        z-index: 1;
+        height: 60px;
+    }
+
+    .menu-bars {
+        display: block;
+        position: relative;
+        /* top: 100%; */
+        left: 1%;
+        float: left;
+        /* font-size: 1000px; */
+    }
+
+    .navbar-brand {
+        position: relative;
+        /* top: 50%; */
+        left: 10%;
+    }
+
+    .nav-photo {
+        width: 30%;
+        float: right;
+        position: relative;
+        /* top: 200%; */
+        right: 3%;
+        z-index: 2;
+        overflow-x: visible;
+        overflow-y: visible;
+    }
+
+    .sub-title {
+        display: none;
+    }
+
+    .item {
+        display: none;
+    }
+
+    .nav-pills {
+        display: none;
+    }
+
+    /* .icons-nav {
+        display: none;
+    } */
+
+    .navbar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .navbar a {
+        float: left;
+        text-align: center;
+        /* float: none; */
+    }
+
+    .banner-img {
+        display: none;
+    }
+
+    .page-content {
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .navbar a {
+
+    }
+}
+
+@media screen and (max-height: 450px) {
+    /* .navbar {padding-top: 15px;} */
+    /* .navbar a {font-size: 18px;} */
+}
