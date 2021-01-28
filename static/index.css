@@ -115,7 +115,7 @@ body {
     padding-left: 15%;
     padding-right: 15%;
     padding-top: 10%;
-    padding-bottom: 10%;
+    padding-bottom: 12%;
     text-align: start;
     /* border-bottom: solid 5px var(--light-green); */
 }
@@ -215,6 +215,7 @@ body {
 
 .item-white {
     opacity: 70%;
+    /* background-color: rgba(229, 232, 238, 0.979); */
 }
 
 .skills-group {
@@ -230,18 +231,20 @@ body {
     padding: 5%;
 }
 
-.body-skills {
+/* .body-skills {
     background-color: var(--medium-green);
     border-radius: 5px;
     border: none;
-}
+} */
 
-.text-skills {
+/* .text-skills {
     color: white;
-}
+} */
 
 #item-2 {
     position: relative;
+    padding-bottom: 0.6%;
+
 }
 
 .yellow-shape-1 {
@@ -321,33 +324,58 @@ body {
     margin-bottom: 5%;
     font-size: 1.5rem;
     padding: 6%;
-    
 } 
 
 
+#item-3 {
+    background-color: #fcec1117;
+    /* overflow: hidden; */
+    padding-bottom: 23%;
+}
+
+#projects-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 25%;
+}
+
+#previous {
+    background-color: rgba(0, 0, 0, 0.342);
+    
+}
+
+.project-overview {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-gap: 5%;
+}
 
 .content-texts {
     color: #888;
     font-size: 1.3rem;
 }
 
-.card-projects {
+.home-img {
+    /* height: 290px; */
+}
+
+/* .card-projects {
     border: none;
     margin-top: 5%;
     margin-bottom: 5%;
-}
+} */
 
-.card-body {
+/* .card-body {
     padding-top: 0;
-}
+} */
 
-hr {
+/* hr {
     border: solid 2px var(--light-green);
-}
+} */
 
-.page-screen {
+/* .page-screen {
     width: 100%;
-}
+} */
 
 .card-title {
     font-size: 1.6rem;
@@ -355,9 +383,9 @@ hr {
     margin-bottom: 5%;
 }
 
-.movie-link {
+/* .movie-link {
     color: var(--lilac);
-}
+} */
 
 .contact-details {
     margin-top: 6%;
@@ -372,7 +400,7 @@ hr {
     padding-bottom: 6%;
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr; */
 }
 
 /* ------------------------- Responsive ----------------------- */
