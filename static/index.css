@@ -96,8 +96,8 @@ body {
     margin-top: 50%;
 }
 
-.fa-linkedin, .fa-github {
-    color: var(--medium-green);
+.github-logo {
+    width: 20px;
 }
 
 /* -------------------- Page ---------------------- */
@@ -105,19 +105,12 @@ body {
     margin-left: 25%;
 }
 
-/* .banner-img {
-    width: 100%;
-    height: 420px;
-    object-fit: cover;
-} */
-
 #item-1, #item-2, #item-3, #item-4, .item-2-container {
     padding-left: 15%;
     padding-right: 15%;
     padding-top: 10%;
     padding-bottom: 12%;
     text-align: start;
-    /* border-bottom: solid 5px var(--light-green); */
 }
 
 #item-1 {
@@ -161,17 +154,15 @@ body {
     width: 100%;
     position: absolute;
     object-fit: cover;
-    /* top: 20%; */
-    /* left: 20%; */
     z-index: -1;
-    /* padding: 0; */
-    /* margin: 0; */
-    opacity: 10%;
-    /* background-color: black; */
+    opacity: 15%;
 }
 
 .hire-btn {
     margin-top: 5%;
+    font-weight: bolder;
+    color: #0B132B;
+    letter-spacing: 1.5px;
 }
 
 .about-title {
@@ -182,9 +173,10 @@ body {
 
 .about-sub {
     margin-top: 3%;
-    margin-bottom: 6%;
-    font-size: 1.5rem;
+    margin-bottom: 5%;
+    font-size: 1.7rem;
     font-weight: 700;
+    letter-spacing: 1.5px;
     color: var(--medium-green);
 }
 
@@ -204,17 +196,17 @@ body {
 }
 
 .list-group-item-warning {
-    background-color: #fca21178;
+    background-color: #fca211b7;
     /* color: #f1f0f0; */
     font-weight: 600;
 }
 
 .list-group-item-primary {
-    background-color: #5bc0be83;
+    background-color: #5bc0bebe;
 }
 
 .item-white {
-    opacity: 70%;
+    opacity: 90%;
     /* background-color: rgba(229, 232, 238, 0.979); */
 }
 
@@ -351,8 +343,11 @@ body {
 }
 
 .content-texts {
-    color: #888;
-    font-size: 1.3rem;
+    /* color: #888; */
+    color: #6b6d6e;
+    line-height: 180%;
+    /* color: #3A506B; */
+    font-size: 1.5rem;
 }
 
 .home-img {
@@ -378,9 +373,19 @@ body {
 } */
 
 .card-title {
-    font-size: 1.6rem;
+    color: #1C2C5D;
+    /* font-size: 2rem; */
+    font-size: 2rem;
+    letter-spacing: 1.3px;
     font-weight: 700;
     margin-bottom: 5%;
+    text-decoration: underline #FCA311;
+}
+
+.card-text {
+    /* color: #6b6d6e;
+    line-height: 180%;
+    font-size: 1.3rem; */
 }
 
 /* .movie-link {
@@ -437,9 +442,9 @@ body {
         height: 120px;
     }
 
-    .banner-img {
+    /* .banner-img {
         height: 280px;
-    }
+    } */
 
     .icons-texts-container {
         margin-bottom: 17%;
