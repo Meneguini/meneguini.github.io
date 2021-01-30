@@ -310,16 +310,16 @@ body {
 }
 
 .shape-projects-1 {
-    width: 700px;
-    height: 700px;
+    width: 650px;
+    height: 650px;
     background-color: #5bc0be83;
     bottom: 5%;
     left: 10%;
 }
 
 .shape-projects-2 {
-    width: 700px;
-    height: 700px;
+    width: 650px;
+    height: 650px;
     background-color: #5bc0be83;
     top: 8%;
     right: 10%;   
@@ -329,12 +329,10 @@ body {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-gap: 20%;
-    /* text-align: center; */
 }
 
 #previous {
     background-color: rgba(0, 0, 0, 0.342);
-    
 }
 
 .project-overview {
@@ -355,7 +353,7 @@ body {
 }
 /* --------------------- */
 
-.btn-outline-warning {
+.outline {
     margin-left: 60%;
     margin-top: 6%;
     font-weight: bolder;
