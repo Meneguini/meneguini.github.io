@@ -13,6 +13,7 @@
 
 body {
   font-family: "Rubik", sans-serif;
+  position: relative;
 }
 
 /* Not displayed in the desktop viewport */
@@ -26,7 +27,7 @@ body {
 
 .navbar {
   height: 100%;
-  width: 25%;
+  width: 20%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -40,6 +41,14 @@ body {
   padding-left: 0;
   padding-right: 0;
   padding-top: 5%;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #5bc0be5b;
+}
+
+.nav-pills .nav-link:hover {
+  background-color: #5bc0be5b;
 }
 
 .navbar-brand {
@@ -62,7 +71,7 @@ body {
 }
 
 .item {
-  border-top: solid 2px var(--lilac);
+  border-top: solid 2px #3a506b71;
 }
 
 .sub-title {
@@ -100,7 +109,8 @@ body {
 /* -------------------- Page ---------------------- */
 /* General margin of page */
 .page-content {
-  margin-left: 25%;
+  margin-left: 20%;
+  /* position: relative; */
 }
 /* Items paddings */
 #item-1,
@@ -143,16 +153,16 @@ body {
   width: 350px;
   height: 350px;
   background-color: #fca21146;
-  top: 5%;
-  left: 15%;
+  top: 3%;
+  left: 13%;
 }
 
 .shape2 {
   width: 250px;
   height: 250px;
   background-color: #fca21146;
-  top: 2%;
-  left: 25%;
+  top: 1%;
+  left: 24%;
 }
 
 .hire-btn {
@@ -203,17 +213,20 @@ body {
 }
 
 .list-group-item-warning {
-  background-color: #fca211b7;
-  /* color: #f1f0f0; */
+  /* background-color: #fca211b7; */
+  background-color: #1c2c5d;
+  color: #f1f0f0;
   font-weight: 600;
 }
 
-.list-group-item-primary {
-  background-color: #5bc0bebe;
+.list-group-item-primary,
+.item-white {
+  /* background-color: #5bc0bebe; */
+  background-color: WHITE;
 }
 
 .item-white {
-  opacity: 90%;
+  /* opacity: 90%; */
   /* background-color: rgba(229, 232, 238, 0.979); */
 }
 
