@@ -204,12 +204,28 @@ body {
   opacity: 15%;
 }
 
-.list {
-  text-align: center;
+.icons-skills {
+  width: 20px;
+  height: 20px;
+  /* float: left; */
+  margin-left: 15%;
 }
 
-.list-group-item {
+.skill-name {
+  /* margin-left: 10%; */
+  /* float: right; */
+}
+
+.list {
+  /* text-align: center; */
+  /* text-align: start; */
+}
+
+.icon-skill {
   border: none;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  justify-content: center;
 }
 
 .list-group-item-warning {
@@ -217,6 +233,7 @@ body {
   background-color: #1c2c5d;
   color: #f1f0f0;
   font-weight: 600;
+  text-align: center;
 }
 
 .list-group-item-primary,
