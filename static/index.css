@@ -425,8 +425,8 @@ body {
 /* Check if it helps with the responsive  */
 #carousel-1,
 #carousel-2 {
-  height: 100%;
-  width: 100%;
+  /* height: 100%; */
+  /* width: 100%; */
 }
 
 .carou-img {
