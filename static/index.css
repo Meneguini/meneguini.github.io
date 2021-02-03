@@ -167,6 +167,10 @@ body {
 
 .hire-btn {
   margin-top: 5%;
+}
+
+.hire-btn,
+.close-modal {
   font-weight: bolder;
   color: #0b132b;
   letter-spacing: 1.5px;
@@ -290,6 +294,12 @@ body {
   padding: 6%;
 }
 
+.last-list {
+  grid-column-start: 3;
+}
+
+/* ------ Projects Areas ------ */
+
 #item-3 {
   background-color: #fcec1117;
   padding-bottom: 23%;
@@ -362,10 +372,6 @@ body {
   /* align-items: center; */
 }
 
-.last-list {
-  grid-column-start: 3;
-}
-
 /* Check if it helps with the responsive  */
 #carousel-1,
 #carousel-2 {
@@ -378,6 +384,18 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+.movie-modal-r,
+.movie-modal-l {
+  background-color: #ffc107;
+  padding: 15%;
+  border-radius: 5px;
+}
+
+.modal-footer {
+  align-self: center;
+}
+
 /* --------------------- */
 
 .outline {
