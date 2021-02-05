@@ -6,7 +6,6 @@
 :root {
   --main-color: #0b132b;
   --medium-purple: #1c2c5d;
-  --lilac: #3a506b;
   --medium-green: #5bc0be;
   --light-green: #6fffe941;
 }
@@ -101,10 +100,12 @@ body {
   align-self: center;
   bottom: 0;
   margin-top: 50%;
+  display: flex;
 }
 
 .github-logo {
-  width: 20px;
+  margin-left: 15%;
+  width: 30px;
 }
 
 /* -------------------- Page ---------------------- */
@@ -166,6 +167,18 @@ body {
   left: 24%;
 }
 
+.check-icon {
+  width: 35px;
+}
+
+.about-2 {
+  margin-top: 5%;
+}
+
+.institution {
+  text-decoration: underline #fca211;
+}
+
 .hire-btn {
   margin-top: 5%;
 }
@@ -198,6 +211,7 @@ body {
   position: relative;
   padding: 0;
   margin: 0;
+  margin-bottom: 1%;
   padding-bottom: 0.6%;
   /* background-color: #fca21115; */
 }
@@ -253,6 +267,8 @@ body {
   grid-template-columns: repeat(3, auto);
   grid-template-rows: auto;
   grid-gap: 5%;
+  color: #6b6d6e;
+  font-weight: 600;
 }
 
 .yellow-shape-1 {
@@ -313,15 +329,15 @@ body {
   height: 550px;
   background-color: #5bc0be83;
   bottom: 6%;
-  left: 10%;
+  left: 9%;
 }
 
 .shape-projects-2 {
   width: 550px;
   height: 550px;
   background-color: #5bc0be83;
-  top: 20%;
-  right: 10%;
+  top: 18%;
+  right: 9%;
 }
 
 .shape-projects-y-1 {
@@ -387,6 +403,12 @@ body {
   cursor: pointer;
 }
 
+.carou-img:hover {
+  /* opacity: 110%; */
+  filter: blur(5px) grayscale(50%);
+  /* position: relative; */
+}
+
 .movie-modal-r,
 .movie-modal-l {
   background-color: #ffc107;
@@ -397,8 +419,6 @@ body {
 .modal-footer {
   align-self: center;
 }
-
-/* --------------------- */
 
 .outline {
   /* margin-left: 70%; */
@@ -418,6 +438,10 @@ body {
 
 .card-content {
   text-align: center;
+}
+
+.store-text {
+  padding-top: 5%;
 }
 
 .card-title {
@@ -440,7 +464,13 @@ body {
 
 .contact-details {
   margin-top: 6%;
+  padding-left: 10%;
   position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-gap: 10%; */
+  align-items: center;
+  /* justify-content: center; */
 }
 
 .contact-title {
@@ -467,20 +497,24 @@ body {
   background-color: #fca21146;
   width: 70px;
   height: 70px;
-  left: -5%;
+  /* left: -0%; */
 }
 
 .b-1 {
-  top: -5%;
+  top: 5%;
 }
 
 .b-2 {
-  /* top: 10%; */
-  top: 35%;
+  top: 60%;
 }
 
-.b-3 {
-  top: 78%;
+.intro {
+  font-size: 1.7rem;
+  margin-top: 3%;
+}
+
+.email-icon {
+  width: 40px;
 }
 
 /* -------------- Footer --------------- */
@@ -498,15 +532,27 @@ body {
 /* ------------------------- Responsive ----------------------- */
 
 @media screen and (max-width: 1680px) {
+  /* Nav */
+  .navbar {
+    width: 24%;
+  }
+  .page-content {
+    margin-left: 24%;
+  }
   /* Skills area */
+  .item-2-container {
+    padding-bottom: 15%;
+    margin-bottom: 0.5%;
+  }
+
   .yellow-shape-1 {
-    top: 10%;
+    top: 15%;
     left: 22%;
   }
 
   .yellow-shape-2 {
-    top: 4%;
-    left: 10%;
+    top: 8%;
+    left: 12%;
   }
 
   .skill-title {
@@ -516,6 +562,16 @@ body {
   .list-group-item {
     font-size: 0.8rem;
     padding: 5px;
+  }
+  /* Projects */
+  .shape-projects-y-1 {
+    /* top: 50%; */
+    /* left: 100%; */
+  }
+
+  .shape-projects-y-2 {
+    top: 5%;
+    left: 27%;
   }
 }
 
