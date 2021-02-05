@@ -565,13 +565,36 @@ body {
   }
   /* Projects */
   .shape-projects-y-1 {
-    /* top: 50%; */
+    top: 3%;
     /* left: 100%; */
   }
 
   .shape-projects-y-2 {
     top: 5%;
     left: 27%;
+  }
+
+  .shape-projects-1 {
+    width: 600px;
+    height: 600px;
+    bottom: -1%;
+    left: 1%;
+  }
+
+  .shape-projects-2 {
+    width: 600px;
+    height: 600px;
+    top: 15%;
+    right: 1%;
+  }
+
+  .project-overview,
+  .project-overview-2 {
+    align-items: center;
+  }
+
+  .store-text {
+    margin-top: 0;
   }
 }
 
