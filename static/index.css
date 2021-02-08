@@ -851,8 +851,17 @@ body {
     display: none;
   }
 
+  .nav-pills {
+    margin-top: 0;
+    padding-top: 30px;
+  }
+
   .github-resp {
     display: block;
+  }
+
+  .photo-name-menu {
+    height: 20px;
   }
 
   .navbar {
@@ -873,9 +882,9 @@ body {
   #menu-icon {
     display: block;
     position: absolute;
-    top: 10%;
+    top: 20%;
     right: 5%;
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .page-content {
