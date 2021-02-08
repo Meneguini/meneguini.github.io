@@ -875,14 +875,14 @@ body {
   .navbar-brand {
     position: absolute;
     margin-top: 0;
-    top: 10%;
+    top: 20px;
     left: 5%;
   }
 
   #menu-icon {
     display: block;
     position: absolute;
-    top: 20%;
+    top: 25px;
     right: 5%;
     font-size: 3rem;
   }
@@ -890,6 +890,8 @@ body {
   .page-content {
     margin-left: 0%;
   }
+
+  /* About */
 
   .about-photo {
     display: block;
@@ -900,6 +902,16 @@ body {
     border-radius: 50%;
     float: right;
     margin-top: -4%;
+  }
+
+  .shape1 {
+    left: 60%;
+    width: 220px;
+    height: 220px;
+  }
+  .shape2 {
+    top: 2%;
+    left: 50%;
   }
 
   .about-title {
@@ -926,18 +938,32 @@ body {
 
 @media screen and (max-width: 600px) {
   .navbar {
-    padding-top: 6%;
-    padding-bottom: 3%;
+    /* padding-top: 6%; */
+    /* padding-bottom: 3%; */
   }
 
   .navbar-brand {
-    top: 8%;
+    /* top: 8%; */
+    top: 16px;
   }
 
   #menu-icon {
-    top: 10%;
-    font-size: 1.9rem;
+    top: 18px;
+    /* top: 10%; */
+    /* font-size: 1.9rem; */
   }
+
+  /* About */
+
+  .shape1 {
+    /* left: 60%; */
+    width: 170px;
+    height: 170px;
+  }
+  /* .shape2 {
+    top: 2%;
+    left: 50%;
+  } */
 
   .about-title {
     font-size: 2rem;
@@ -972,11 +998,26 @@ body {
   }
 
   .navbar-brand {
-    top: 5%;
+    /* top: 5%; */
+    top: 11px;
   }
 
   #menu-icon {
-    top: 6%;
+    /* top: 6%; */
+    top: 17px;
+  }
+
+  /* About */
+  .shape1 {
+    left: 50%;
+    width: 160px;
+    height: 160px;
+  }
+  .shape2 {
+    width: 100px;
+    height: 100px;
+    top: 2%;
+    left: 50%;
   }
 
   .about-title {
@@ -1026,6 +1067,16 @@ body {
 
   .icons-texts-container {
     margin-bottom: 52%;
+  }
+
+  /* About */
+  .shape1 {
+    width: 130px;
+    height: 130px;
+  }
+  .shape2 {
+    width: 100px;
+    height: 100px;
   }
 
   .about-photo {
