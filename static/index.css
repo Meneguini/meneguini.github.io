@@ -497,6 +497,16 @@ body {
   padding-top: 3%;
   padding-bottom: 3%;
   text-align: center;
+  /* grid-template-rows: 1fr 1fr; */
+  /* align-items: center; */
+}
+
+.github-footer {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 5%;
+  margin-left: 0%;
+  display: none;
 }
 
 /* ------------------------- Responsive ----------------------- */
@@ -962,6 +972,23 @@ body {
   .email-back {
     padding-left: 3%;
   }
+
+  /* Footer */
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .a-footer {
+    justify-self: center;
+    margin-bottom: 3%;
+  }
+
+  .github-footer {
+    display: block;
+    width: 25px;
+    height: 25px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -1202,7 +1229,10 @@ body {
   .shape1 {
     width: 130px;
     height: 130px;
+    top: 1.4%;
+    right: 1%;
   }
+
   .shape2 {
     width: 100px;
     height: 100px;

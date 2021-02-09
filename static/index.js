@@ -1,12 +1,24 @@
 document.addEventListener("DOMContentLoaded", () => {
- 
-  const isMobile = () => {
-    if (window.innerWidth <= 736) {
-      console.log("hello mobile");
 
+
+  const closeNav = () => {
+    if (window.innerHeight + window.scrollY >= document.body.offsetHeight -3000) {
+      
+      document.querySelector(".nav-pills").style.display = "none";
+
+      window.addEventListener("scroll", closeNav);
     }
   }
 
+  const isMobile = () => {
+    if (window.innerWidth <= 736) {
+      console.log("mobile");
+      window.addEventListener("scroll", closeNav);
+    }
+  }
+
+  
+ 
   isMobile();
   
   const menuClicked = () => {
