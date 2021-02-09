@@ -794,6 +794,12 @@ body {
   .about-title {
     font-size: 2.3rem;
   }
+
+  .btn-group-lg > .btn,
+  .btn-lg {
+    padding: 0.5rem 0.5rem;
+  }
+
   /* Titles */
   .content-titles {
     font-size: 2.3rem;
@@ -919,7 +925,7 @@ body {
   }
 
   .about-sub {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     /* color: #777; */
   }
 
@@ -934,23 +940,35 @@ body {
   .icons-texts-container {
     margin-bottom: 24%;
   }
+
+  /* Projects */
+
+  .card-text {
+    font-size: 1.3rem;
+  }
+
+  .store-text {
+    margin-top: 5%;
+  }
+
+  .shape-projects-y-1 {
+    width: 140px;
+    height: 140px;
+  }
+
+  .shape-projects-y-2 {
+    width: 110px;
+    height: 110px;
+  }
 }
 
 @media screen and (max-width: 600px) {
-  .navbar {
-    /* padding-top: 6%; */
-    /* padding-bottom: 3%; */
-  }
-
   .navbar-brand {
-    /* top: 8%; */
     top: 16px;
   }
 
   #menu-icon {
     top: 18px;
-    /* top: 10%; */
-    /* font-size: 1.9rem; */
   }
 
   /* About */
@@ -960,25 +978,13 @@ body {
     width: 170px;
     height: 170px;
   }
-  /* .shape2 {
-    top: 2%;
-    left: 50%;
-  } */
+
+  .hire-btn {
+    max-width: 35%;
+  }
 
   .about-title {
     font-size: 2rem;
-  }
-
-  .about-sub {
-    font-size: 0.9rem;
-  }
-
-  .content-texts {
-    font-size: 1rem;
-  }
-
-  .card-text {
-    font-size: 1rem;
   }
 
   .text-fo {
@@ -989,25 +995,74 @@ body {
     width: 110px;
     height: 110px;
   }
+
+  /* Skills Area */
+  .yellow-shape-1 {
+    width: 70px;
+    height: 70px;
+    top: 4%;
+    left: 23%;
+  }
+
+  .yellow-shape-2 {
+    width: 100px;
+    height: 100px;
+    top: 2%;
+    left: 9%;
+  }
+
+  /* Projects Area */
+
+  #item-3 {
+    padding-bottom: 35%;
+  }
+
+  #projects-container {
+    grid-gap: 7%;
+  }
+
+  .shape-projects-y-1 {
+    width: 120px;
+    height: 120px;
+  }
+
+  .shape-projects-y-2 {
+    width: 90px;
+    height: 90px;
+  }
+
+  .store-text {
+    margin-top: 0;
+    padding-top: 0;
+  }
 }
 
 @media screen and (max-width: 450px) {
   .navbar {
     padding-top: 7%;
-    /* padding-bottom: 7%; */
   }
 
   .navbar-brand {
-    /* top: 5%; */
     top: 11px;
   }
 
   #menu-icon {
-    /* top: 6%; */
     top: 17px;
   }
 
   /* About */
+  .content-texts {
+    font-size: 1.2rem;
+  }
+
+  .about-sub {
+    font-size: 1.1rem;
+  }
+
+  .about-title {
+    font-size: 1.6rem;
+  }
+
   .shape1 {
     left: 50%;
     width: 160px;
@@ -1018,22 +1073,6 @@ body {
     height: 100px;
     top: 2%;
     left: 50%;
-  }
-
-  .about-title {
-    font-size: 1.7rem;
-  }
-
-  .about-title {
-    font-size: 1.5rem;
-  }
-
-  .about-sub {
-    font-size: 0.7rem;
-  }
-
-  .content-texts {
-    font-size: 0.8rem;
   }
 
   .icons-texts-container {
@@ -1055,6 +1094,63 @@ body {
   .about-photo {
     width: 100px;
     height: 100px;
+  }
+
+  .hire-btn {
+    max-width: 45%;
+  }
+
+  /* Skills Area */
+  .yellow-shape-1 {
+    width: 55px;
+    height: 55px;
+    left: 26%;
+  }
+
+  .yellow-shape-2 {
+    width: 85px;
+    height: 85px;
+    left: 9%;
+  }
+
+  .icons-skills {
+    margin-left: 0;
+    justify-self: start;
+  }
+
+  #skills-titles {
+    font-size: 1.1rem;
+  }
+
+  .skill-name {
+    font-size: 0.9rem;
+  }
+
+  /* Projects Area */
+
+  .shape-projects-y-2 {
+    width: 90px;
+    height: 90px;
+    left: 30%;
+  }
+
+  .shape-projects-y-1 {
+    width: 110px;
+    height: 110px;
+  }
+
+  .card-text {
+    font-size: 1.2rem;
+  }
+
+  .project-overview-2 {
+    grid-template-rows: 43% auto;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .project-overview-2 {
+    grid-template-rows: 32% auto;
   }
 }
 
@@ -1079,8 +1175,55 @@ body {
     height: 100px;
   }
 
+  .hire-btn {
+    max-width: 55%;
+  }
+
   .about-photo {
     width: 80px;
     height: 80px;
+  }
+
+  /* Skills area */
+  .yellow-shape-1 {
+    width: 60px;
+    height: 60px;
+    top: 2%;
+    left: 28%;
+  }
+
+  .yellow-shape-2 {
+    top: 0%;
+    left: 6%;
+  }
+
+  .skill-title {
+    margin-bottom: 15%;
+  }
+
+  .skills-group {
+    display: block;
+  }
+
+  .list {
+    margin-bottom: 10%;
+  }
+
+  /* Projects Area */
+
+  #item-3 {
+    padding-bottom: 50%;
+  }
+  .shape-projects-y-2 {
+    width: 80px;
+    height: 80px;
+    left: 35%;
+    top: 1%;
+  }
+
+  .shape-projects-y-1 {
+    width: 90px;
+    height: 90px;
+    top: 0%;
   }
 }
