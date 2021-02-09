@@ -290,11 +290,6 @@ body {
   z-index: -1;
 }
 
-/* .visually-hidden {
-  color: black;
-  font-size: 50px;
-} */
-
 .body-skills {
   padding: 0;
   padding-bottom: 3%;
@@ -514,6 +509,7 @@ body {
   .page-content {
     margin-left: 24%;
   }
+
   /* Skills area */
   .item-2-container {
     padding-bottom: 15%;
@@ -584,6 +580,7 @@ body {
   .card-text {
     font-size: 1.8rem;
   }
+
   /* Contact */
   .bullet {
     background-color: #fca21146;
@@ -926,7 +923,6 @@ body {
 
   .about-sub {
     font-size: 1.2rem;
-    /* color: #777; */
   }
 
   .footer {
@@ -960,6 +956,12 @@ body {
     width: 110px;
     height: 110px;
   }
+
+  /* Contact */
+  .upwork-back,
+  .email-back {
+    padding-left: 3%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -974,7 +976,6 @@ body {
   /* About */
 
   .shape1 {
-    /* left: 60%; */
     width: 170px;
     height: 170px;
   }
@@ -1034,6 +1035,14 @@ body {
   .store-text {
     margin-top: 0;
     padding-top: 0;
+  }
+
+  /* Contact */
+  /* Contact */
+  .upwork-back,
+  .email-back {
+    padding-left: 2%;
+    width: 90%;
   }
 }
 
@@ -1146,6 +1155,31 @@ body {
   .project-overview-2 {
     grid-template-rows: 43% auto;
   }
+
+  /* Contact */
+
+  #item-4 {
+    padding-bottom: 30%;
+  }
+
+  .contact-shape-2 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .upwork-back,
+  .email-back {
+    padding-left: 2%;
+    width: 100%;
+  }
+
+  .intro {
+    font-size: 1.2rem;
+  }
+
+  .email {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 360px) {
@@ -1157,7 +1191,6 @@ body {
 @media screen and (max-width: 340px) {
   .navbar {
     padding-top: 9%;
-    /* padding-bottom: %; */
     min-width: 100%;
   }
 
@@ -1225,5 +1258,10 @@ body {
     width: 90px;
     height: 90px;
     top: 0%;
+  }
+
+  /* Contact */
+  .email {
+    font-size: 0.8rem;
   }
 }
