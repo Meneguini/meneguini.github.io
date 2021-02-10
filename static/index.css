@@ -437,7 +437,9 @@ body {
   position: relative;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1%;
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 20%;
+  /* grid-gap: 1%; */
   align-items: center;
 }
 
@@ -461,20 +463,6 @@ body {
   left: -21%;
 }
 
-.bullet {
-  background-color: #fca21146;
-  width: 70px;
-  height: 70px;
-}
-
-.b-1 {
-  top: 7%;
-}
-
-.b-2 {
-  top: 62%;
-}
-
 .intro {
   font-size: 1.7rem;
   line-height: 2rem;
@@ -489,6 +477,17 @@ body {
   width: 40px;
 }
 
+.upwork-back,
+.email-back {
+  background-color: #fca21146;
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  padding-left: 10%;
+  /* padding: 10%; */
+  align-self: center;
+}
+
 /* -------------- Footer --------------- */
 .footer {
   background-color: var(--light-green);
@@ -497,8 +496,6 @@ body {
   padding-top: 3%;
   padding-bottom: 3%;
   text-align: center;
-  /* grid-template-rows: 1fr 1fr; */
-  /* align-items: center; */
 }
 
 .github-footer {
@@ -592,11 +589,6 @@ body {
   }
 
   /* Contact */
-  .bullet {
-    background-color: #fca21146;
-    width: 50px;
-    height: 50px;
-  }
 
   .contact-details {
     font-size: 0.5rem;
@@ -741,22 +733,6 @@ body {
 
   .intro {
     color: #1c2c5d;
-  }
-
-  .b-1 {
-    display: none;
-  }
-
-  .b-2 {
-    display: none;
-  }
-
-  .upwork-back,
-  .email-back {
-    background-color: #fca21146;
-    width: 80%;
-    border-radius: 10px;
-    padding-left: 10%;
   }
 }
 
