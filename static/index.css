@@ -18,7 +18,8 @@ body {
 /* Not displayed in the desktop viewport */
 #menu-icon,
 .about-photo,
-.github-resp {
+.github-resp,
+.below {
   display: none;
 }
 
@@ -433,7 +434,7 @@ body {
 
 .contact-details {
   margin-top: 6%;
-  padding-left: 10%;
+  /* padding-left: 10%; */
   position: relative;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -483,9 +484,9 @@ body {
   width: 100%;
   height: 150px;
   border-radius: 10px;
-  padding-left: 10%;
-  /* padding: 10%; */
-  align-self: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
 /* -------------- Footer --------------- */
@@ -718,8 +719,17 @@ body {
 
   .contact-details {
     grid-template-columns: 1fr;
+    grid-template-rows: none;
     grid-gap: 5%;
     justify-content: center;
+  }
+
+  .below {
+    display: block;
+  }
+
+  .no-below {
+    display: none;
   }
 
   .contact-shape-1 {
@@ -944,9 +954,9 @@ body {
   }
 
   /* Contact */
-  .upwork-back,
-  .email-back {
-    padding-left: 3%;
+
+  .contact-details {
+    align-items: center;
   }
 
   /* Footer */
