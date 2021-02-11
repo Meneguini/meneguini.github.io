@@ -850,6 +850,10 @@ body {
     display: none;
   }
 
+  #certified-nav {
+    display: none;
+  }
+
   .nav-pills {
     margin-top: 0;
     padding-top: 30px;
