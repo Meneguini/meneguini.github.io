@@ -1119,7 +1119,7 @@ body {
 
   .shape1 {
     left: 53%;
-    top: -4%;
+    top: -6%;
     width: 160px;
     height: 160px;
   }
@@ -1127,7 +1127,7 @@ body {
   .shape2 {
     width: 100px;
     height: 100px;
-    top: 2%;
+    top: -2%;
     left: 50%;
   }
 
