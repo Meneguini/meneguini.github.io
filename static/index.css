@@ -895,6 +895,12 @@ body {
     margin-left: 0%;
   }
 
+  /* Titles of area/exception About */
+
+  .content-titles {
+    margin-bottom: 15%;
+  }
+
   /* About */
 
   .about-photo {
@@ -939,7 +945,16 @@ body {
     margin-bottom: 24%;
   }
 
+  /* Skills */
+
+  #item-2 {
+    padding-bottom: 35%;
+  }
   /* Projects */
+
+  .projects-title {
+    margin-bottom: 25%;
+  }
 
   .card-text {
     font-size: 1.3rem;
