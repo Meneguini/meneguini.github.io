@@ -1118,17 +1118,17 @@ body {
   }
 
   .shape1 {
-    left: 53%;
-    top: -8%;
-    width: 160px;
-    height: 160px;
+    left: 60%;
+    top: -4%;
+    width: 145px;
+    height: 145px;
   }
 
   .shape2 {
     width: 100px;
     height: 100px;
-    top: -2%;
-    left: 50%;
+    top: -6%;
+    left: 58%;
   }
 
   .icons-texts-container {
@@ -1227,6 +1227,15 @@ body {
   .project-overview-2 {
     grid-template-rows: 32% auto;
   }
+  /* About */
+  .shape1 {
+    left: 51%;
+    top: -4%;
+  }
+  .shape2 {
+    top: -6%;
+    left: 50%;
+  }
 }
 
 @media screen and (max-width: 340px) {
@@ -1243,12 +1252,11 @@ body {
   .shape1 {
     width: 130px;
     height: 130px;
+    top: -2%;
   }
 
   .shape2 {
-    width: 100px;
-    height: 100px;
-    left: 60%;
+    display: none;
   }
 
   .hire-btn {
@@ -1256,8 +1264,8 @@ body {
   }
 
   .about-photo {
-    width: 80px;
-    height: 80px;
+    width: 95px;
+    height: 95px;
   }
 
   /* Skills area */
