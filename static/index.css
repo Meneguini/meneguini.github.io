@@ -119,6 +119,7 @@ body {
   margin-left: 20%;
 }
 /* Items paddings */
+#item-0,
 #item-1,
 #item-2,
 #item-3,
@@ -140,12 +141,12 @@ body {
 }
 
 /* About Area */
-#item-1 {
+#item-0, #item-1 {
   background-color: #5bc0be13;
   border-bottom: none;
 }
 
-.item-1-box {
+.item-0-box {
   position: relative;
 }
 
