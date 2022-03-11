@@ -141,7 +141,7 @@ body {
 }
 
 /* About Area */
-#item-0, #item-1 {
+#item-0 {
   background-color: #5bc0be13;
   border-bottom: none;
 }
@@ -210,9 +210,11 @@ body {
   color: var(--medium-green);
 }
 
-/* Skills Area */
+/* IT Support Skills Area */
 
-#item-2 {
+/* Web Skills Area */
+
+#item-2{
   position: relative;
   padding: 0;
   margin: 0;
