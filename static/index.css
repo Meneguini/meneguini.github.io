@@ -40,8 +40,9 @@ body {
   text-align: center;
   padding-left: 0;
   padding-right: 0;
-  padding-top: 5%;
+  /* padding-top: 5%; */
 }
+
 
 .nav-pills .nav-link.active {
   background-color: #5bc0be5b;
@@ -103,8 +104,8 @@ body {
 
 .icons-nav {
   align-self: center;
-  bottom: 0;
-  margin-top: 50%;
+  /* bottom: 0; */
+  /* margin-top: 50%; */
   display: flex;
 }
 
@@ -647,9 +648,10 @@ body {
 }
 
 @media screen and (max-width: 1280px) {
-  .navbar {
+ 
+  /* .navbar {
     padding-top: 5%;
-  }
+  } */
 
   .navbar-brand {
     font-size: 1.5rem;
@@ -659,9 +661,9 @@ body {
     font-size: 1rem;
   }
 
-  .icons-nav {
+  /* .icons-nav {
     margin-top: 15%;
-  }
+  } */
 
   .nav-pills {
     font-size: 1.3rem;
@@ -786,8 +788,9 @@ body {
 
 @media screen and (max-width: 980px) {
   /* Navbar */
+ 
   .navbar {
-    padding-top: 6%;
+    padding-top: 5%;
   }
 
   .navbar-brand {
@@ -802,9 +805,9 @@ body {
     font-size: 1.2rem;
   }
 
-  .icons-nav {
+  /* .icons-nav {
     margin-top: 150%;
-  }
+  } */
 
   /* About */
 
@@ -897,6 +900,10 @@ body {
   .banner-img,
   .nav-pills {
     display: none;
+  }
+
+  .navbar {
+    padding-top: 6%;
   }
 
   #certified-nav {
