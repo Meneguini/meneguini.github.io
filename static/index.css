@@ -217,13 +217,17 @@ body {
   margin-left: 10%;
 }
 
+.it-container {
+  position: relative;
+}
+
 .it-shape-1 {
   position: absolute;
   width: 100px;
   height: 100px;
   background-color: #5bc0be70;
-  top: 19%;
-  left: 30.5%;
+  top: -2%;
+  left: -5%;
   border-radius: 50%;
   z-index: -1;
 }
@@ -233,8 +237,8 @@ body {
   width: 150px;
   height: 150px;
   background-color: #5bc0be59;
-  top: 17.5%;
-  left: 25%;
+  top: 3%;
+  left: -17%;
   border-radius: 50%;
   z-index: -1;
 }
@@ -405,7 +409,6 @@ body {
   grid-gap: 5%;
 }
 
-/* Check if it helps with the responsive  */
 
 .carou-img {
   width: 100%;
@@ -464,13 +467,11 @@ body {
 
 .contact-details {
   margin-top: 6%;
-  /* padding-left: 10%; */
   position: relative;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-row-gap: 20%;
-  /* grid-gap: 1%; */
   align-items: center;
 }
 
@@ -553,6 +554,7 @@ body {
   .shape1 {
     left: -50%;
   }
+
 
   /* Skills area */
   .item-2-container {
@@ -679,9 +681,6 @@ body {
     top: -5%;
     left: -31%;
   }
-  /* IT skills */
-
-
 
   /* Skills */
   #item-2 {
@@ -836,6 +835,21 @@ body {
   .content-texts {
     font-size: 1.3rem;
   }
+
+  /* It Support Skills */
+
+  .it-shape-1 {
+    width: 70px;
+    height: 70px;
+    top: -3%;
+    left: -6%;
+  }
+  .it-shape-2 {
+    width: 100px;
+    height: 100px;
+    top: 4%;
+    left: -18%;
+  }
   /* Skills */
   .yellow-shape-1 {
     width: 90px;
@@ -977,6 +991,14 @@ body {
 
   .icons-texts-container {
     margin-bottom: 24%;
+  }
+
+  /* It Support skills */
+
+  .it-skills {
+    text-align: center;
+    width: 98%;
+    margin-left: 1%;
   }
 
   /* Skills */
@@ -1300,6 +1322,21 @@ body {
   .about-photo {
     width: 95px;
     height: 95px;
+  }
+
+  /* It Support Skills */
+
+  .it-shape-1 {
+    width: 50px;
+    height: 50px;
+    top: -1%;
+    left: -4%;
+  }
+  .it-shape-2 {
+    width: 80px;
+    height: 80px;
+    top: 4%;
+    left: -16%;
   }
 
   /* Skills area */
