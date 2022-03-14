@@ -177,7 +177,7 @@ body {
 }
 
 .about-2 {
-  margin-top: 5%;
+  /* margin-top: 5%; */
 }
 
 .institution {
@@ -211,6 +211,33 @@ body {
 }
 
 /* IT Support Skills Area */
+.it-skills {
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.it-shape-1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #5bc0be70;
+  top: 19%;
+  left: 30.5%;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.it-shape-2 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: #5bc0be59;
+  top: 17.5%;
+  left: 25%;
+  border-radius: 50%;
+  z-index: -1;
+}
 
 /* Web Skills Area */
 
@@ -652,6 +679,10 @@ body {
     top: -5%;
     left: -31%;
   }
+  /* IT skills */
+
+
+
   /* Skills */
   #item-2 {
     padding-bottom: 10%;
