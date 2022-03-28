@@ -9,5 +9,8 @@
   },
   "files.eol": "\n",
   "files.insertFinalNewline": true,
-  "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "cSpell.words": [
+    "Meneguini"
+  ]
 }
